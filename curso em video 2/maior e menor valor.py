@@ -3,6 +3,8 @@ menornumero = 0
 n = []
 for c in range (0,5):
     n.append(int(input('insira um valor na lista')))
+    if c == 0:
+        maiornumero = menornumero = n[c]
     if n[c] >= maiornumero:
         maiornumero = n[c]
     elif n[c] <= menornumero:
